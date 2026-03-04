@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); 
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(83, 185, 83);
+    margin: 0px;
+
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(157, 235, 157),  rgba(27, 77, 27));
+    height: 220px;
+    width: auto;
+    margin: none;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+header > h1 {
+    font-family: light 'Oswald';
+    font-style: normal;
+    margin: 0px;
+    text-indent: 50px;
+    font-size: 40px;
+}
+
+header p {
+    font-size: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 77, 27);
+    border:20px solid rgb(27, 77, 27);
+    margin: auto;
+}
+
+main > section > h1 {
+    font-family: 'idroid';
+    color: rgb(27, 77, 27);
+    text-indent: 5px;
+}
+
+.textra {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(13, 194, 13);
+    width: 750px;
+    padding: 10px;
+    margin: 20px auto auto auto;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.329);
+    text-indent: 5px;
+    color: white;
+}
+
+.extra {
+    background-color: rgb(152, 243, 152);
+    width: 750px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.329);
+}
+
+.extra > ol {
+    line-height: 20px;
+    list-style-type: decimal-leading-zero;
+}
+
+.tdiferente {
+    font-family: 'idroid';
+    background-image: linear-gradient(to right, rgb(137, 235, 137), white);
+    background-attachment: fixed;
+    padding: 5px;
+    text-indent: 5px;
+}
+
+footer {
+    background-color: rgb(27, 77, 27);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer > p {
+    margin: 0px;
+}
